@@ -24,7 +24,10 @@
               },
               fontFamily :{
                 manrope: ['Manrope', 'sans-serif'],
-              }
+              },
+              backgroundImage: {
+                bannerBg: "url('assets/bg.jpg')" ,
+                }
             }
           }
         }
@@ -62,7 +65,7 @@
                     
 
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden rounded-full  border-gray-200">
                         <i class="fa-solid fa-bars text-lg"></i>
                     </div>
                     <ul
@@ -80,6 +83,28 @@
               </div>
               
         </nav>
+
+        <!--banner section start-->
+        <section >
+            <div class="hero min-h-screen">
+                <div class="hero-content block text-center lg:w-9/12 w-11/12 mx-auto">
+                    <div class="inline-block lg:mt-14 mt-8">
+                        <img src="assets/banner.png" alt="" >
+                    </div>
+                  <div>
+                    <h1 class="lg:text-6xl text-3xl font-extrabold text-primary">A barn house of this design has a striking appearance</h1>
+                    <p class=" lg:text-base font-medium my-8 text-sm">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <div class="mb-24">
+                        <button class="btn lg:w-52 w-full font-bold rounded-3xl text-xl bg-lime-200 text-primary border-lime-400">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 rounded-full place-content-center mr-2 size-8"></i></button>
+                    </div>
+                                   
+                  </div>
+                </div>
+              </div>
+        </section>
+
     </header>
 </body>
 </html>
